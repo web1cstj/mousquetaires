@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+	<meta charset="UTF-8" />
+	<base href="http://prof-tim.cstj.qc.ca/cours/web1_2018/exercices/mousquetaires/">
+	<link rel="stylesheet" href="../exercice.css" />
+	<script src="../exercice.js"></script>
+	<title>Exercice "Mousquetaires"</title>
+</head>
+<body class="page-seule">
+<!-- 
+Très bon exercice. À garder.
+Écrire au tableau les étapes
+	1) Ajouter les images
+	2) Ajouter les liens
+Pour avoir le "Bravo", il faut ajouter le span#fin à la fin
+À faire : Allonger le texte ou grossir le texte pour ne pas avoir à zoomer. Mettre du texte plus significatif. Mettre une petite mise en page.
+-->
+	<header><a href="#retour">Intégration Web I</a> <span>Exercice formatif</span></header>
+	<h2>Exercice "Mousquetaires"</h2>
+	<ol>
+<!--		<li>Exercice formatif qui pourrait compter dans les travaux divers. À remettre avant le prochain labo.</li>-->
+		<li>Le but de l'exercice est d'ajouter des liens et des images.</li>
+		<li><a href="mousquetaires/parcours.png" target="_blank" style="float:right;border:solid; width:15em;"><img src="mousquetaires/parcours.png" alt="Le chemin à suivre" style="width:100%;"/></a>Regarder la démo du prof.</li>
+		<li>Récupérer le <a class="download" href="mousquetaires.zip">dossier de travail</a>.</li>
+		<li>Il y a 3 fichiers HTML à modifier.</li>
+		<li>Dans chaque page, il y a un paragraphe (toujours le même) dans lequel on doit rendre cliquables les mots "Athos", "Porthos" et "Aramis" pour permettre à l'usager de se rendre à la page correspondante.</li>
+		<li>Il y a en tout 6 images de flèches numérotées à ajouter en se fiant au schéma <code class="nom"><a href="mousquetaires/parcours.png">parcours.png</a></code> qui se trouve dans le dossier de travail.</li>
+		<li>Chaque image est cliquable et pointe vers l'emplacement de la flèche suivante (donc, 6 liens)</li>
+		<li style="text-transform:uppercase;">Il est interdit de modifier l'emplacement des fichiers.</li>
+		<li>Note: Il va sans dire que les toutes les adresses doivent être relatives.</li>
+	</ol>
+	<div>
+		<h3>Par étape</h3>
+		<ol>
+			<li>Les liens simples
+				<ul class="compacte">
+					<li>Ajouter les liens sur les mots "Athos", "Porthos" et "Aramis" dans toutes les pages (9 liens en tout).</li>
+					<li>Ces liens doivent mener vers la page correspondante.</li>
+				</ul>
+			</li>
+			<li>Les flèches
+				<ul class="compacte">
+					<li>Ajouter les 6 images de flèches.</li>
+					<li>Les flèches 1 et 5 vont dans <code class="nom">athos.html</code></li>
+					<li>Les flèches 2 et 3 vont dans <code class="nom">porthos.html</code></li>
+					<li>Les flèches 4 et 6 vont dans <code class="nom">aramis.html</code></li>
+					<li>Plus précisément, les flèches 1, 2 et 4 se placent tout juste après l'élément <code class="balise">h1</code> et les flèches 3, 5 et 6 se placent tout juste après la ligne <span class="nom">«Qui vive?»</span>.</li>
+				</ul>
+			</li>
+			<li>Les liens sur les images
+				<ul class="compacte">
+					<li>Envelopper les images de balises <code class="balise">a</code> (6 liens en tout). Ces liens doivent mener vers la bonne PAGE. Ne pas se soucier de l'ancre pour l'instant.</li>
+					<li>Dans les liens des flèches 3, 5 et 6, ajouter un attribut <code>id</code> avec une valeur significative. Le id doit suivre les standards de nomenclature, notamment ne pas commencer par un chiffre.</li>
+					<li>Dans les liens des flèches 2 et 4, ajouter, à la fin de l'attribut <code>href</code>, un dièze (<code>#</code>) suivi du <code>id</code> de la flèche correspondante.</li>
+					<li>Dans le lien de la flèche 2, comme celui-ci pointe dans vers la page courante, on peut (doit) enlever le nom du fichier (<code>porthos.html</code>).</li>
+				</ul>
+			</li>
+			<li>Et le «Bravo!»
+			<ul class="compacte">
+				<li>Au bas de la page <code class="nom">aramis.html</code>, ajouter un <code class="balise">span</code> ayant l'attribut <code>id</code> avec la valeur <code class="nom">fin</code>.</li>
+				<li>Faire en sorte que la flèche 6 pointe vers celui-ci.</li>
+			</ul>
+			</li>
+		</ol>
+	</div>
+		<footer><span>Département des Techniques d'intégration multimédia</span></footer>
+</body>
+
+</html>
