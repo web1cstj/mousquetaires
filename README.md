@@ -39,4 +39,4 @@ Faire chaque partie __au complet__ avant de passer à la suivante.
 
 ## Solution
 
-Vous pouvez [télécharger la solution 📁](https://github.com/web1cstj/mousquetaires/archive/refs/heads/depart.zip) afin de la comparer avec votre travail.
+Vous pouvez [télécharger la solution 📁](https://github.com/web1cstj/mousquetaires/archive/refs/heads/solution.zip) afin de la comparer avec votre travail.
