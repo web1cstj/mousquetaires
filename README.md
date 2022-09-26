@@ -36,7 +36,3 @@ Faire chaque partie __au complet__ avant de passer à la suivante.
 ### D. Et le «Bravo!»
 1. Au bas de la page `aramis.html`, ajouter un `<span>` ayant l'attribut `id` avec la valeur `"fin"`.
 1. Faire en sorte que la flèche __6__ pointe vers celui-ci.
-
-## Solution
-
-Vous pouvez [télécharger la solution 📁](https://github.com/web1cstj/mousquetaires/archive/refs/heads/solution.zip) afin de la comparer avec votre travail.
