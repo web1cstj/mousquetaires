@@ -17,8 +17,8 @@
 Faire chaque partie __au complet__ avant de passer à la suivante.
 
 ### A. Les liens simples
-   1. Ajouter les liens sur les mots "Athos", "Porthos" et "Aramis" dans toutes les pages (9 liens en tout).
-   1. Ces liens doivent mener vers la page correspondante.
+1. Ajouter les liens sur les mots "Athos", "Porthos" et "Aramis" dans toutes les pages (9 liens en tout).
+1. Ces liens doivent mener vers la page correspondante.
 
 ### B. Les flèches
 1. Ajouter les 6 images de flèches.
@@ -28,7 +28,7 @@ Faire chaque partie __au complet__ avant de passer à la suivante.
 1. Plus précisément, les flèches __1__, __2__ et __4__ se placent tout juste après l'élément `h1` et les flèches __3__, __5__ et __6__ se placent tout juste après la ligne «Qui vive?».
 
 ### C. Les liens sur les images
-1. Envelopper les images de balises `<a>` (6 liens en tout). Ces liens doivent mener vers la bonne PAGE. Ne pas se soucier de l'ancre pour l'instant.
+1. Envelopper les images de balises `<a>` (6 liens en tout). Ces liens doivent mener vers la bonne __PAGE__. Ne pas se soucier de l'ancre pour l'instant.
 1. Dans les liens des flèches __3__, __5__ et __6__, ajouter un attribut `id` avec une valeur significative. Le `id` doit suivre les standards de nomenclature, notamment ne pas commencer par un chiffre.
 1. Dans les liens des flèches __2__ et __4__, ajouter, à la fin de l'attribut `href`, un dièze (`#`) suivi du `id` de la flèche correspondante.
 1. Dans le lien de la flèche __2__, comme celui-ci pointe dans vers la page courante, on peut (doit) enlever le nom du fichier (`porthos.html`).
