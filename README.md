@@ -36,3 +36,10 @@ Faire chaque partie __au complet__ avant de passer à la suivante.
 ### D. Et le «Bravo!»
 1. Au bas de la page `aramis.html`, ajouter un `<span>` ayant l'attribut `id` avec la valeur `"fin"`.
 1. Faire en sorte que la flèche __6__ pointe vers celui-ci.
+
+## Remise
+- Travail individuel.
+- Durée : une semaine. À remettre avant le cours __une semaine__ après la réception.
+- Compte pour __5%__ de la note finale.
+- Renommer le dossier `NOMP0123456_tableau` __AVANT__ de le _zipper_ pour le remettre dans le projet correspondant sur [remise.cstj.qc.ca](https://remise.cstj.qc.ca).
+
